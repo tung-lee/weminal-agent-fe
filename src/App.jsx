@@ -364,23 +364,23 @@ export const App = () => {
                 <div className="relative w-fit font-header-2 font-[number:var(--header-2-font-weight)] text-[#ffffff] text-[length:var(--header-2-font-size)] tracking-[var(--header-2-letter-spacing)] leading-[var(--header-2-line-height)] [font-style:var(--header-2-font-style)]">
                   Payment Gateway
                 </div>
-                <div className="flex flex-col w-[626px] items-start gap-[16px] relative flex-[0_0_auto]">
-                  <div className="flex w-[626px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
+                <div className="flex flex-col items-start gap-[16px] relative flex-[0_0_auto]">
+                  <div className="flex w-[550px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
                     <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-purple-text text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
                       Paypal
                     </div>
                   </div>
-                  <div className="flex w-[626px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
+                  <div className="flex w-[550px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
                     <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-purple-text text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
                       Amazon Pay
                     </div>
                   </div>
-                  <div className="flex w-[626px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
+                  <div className="flex w-[550px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
                     <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-purple-text text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
                       Stripe
                     </div>
                   </div>
-                  <div className="flex w-[626px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
+                  <div className="flex w-[550px] items-center gap-[816px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#231b31] rounded-[12px]">
                     <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-purple-text text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
                       Apple Pay
                     </div>
