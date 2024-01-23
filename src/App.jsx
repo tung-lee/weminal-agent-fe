@@ -37,7 +37,7 @@ export const App = () => {
                 </div>
               </div>
               <div className="relative w-full h-[651px]">
-                <div className="flex flex-col items-end justify-center gap-[10px] px-[100px] py-[167px] relative top-[-35px] left-[-40px]">
+                <div className="flex flex-col w-[92%] items-end justify-center gap-[10px] px-[100px] py-[167px] relative top-[-35px] left-[-40px]">
                   <div className="inline-flex flex-col items-start gap-[12px] p-[40px] relative flex-[0_0_auto] rounded-[40px]">
                     <div className="inline-flex items-start gap-[13px] relative flex-[0_0_auto]">
                       <div className="flex flex-col w-[90px] items-center justify-center gap-[12px] p-[40px] relative rounded-[12px] [background:linear-gradient(180deg,rgb(34.41,27.38,49.66)_0%,rgba(44.24,36.84,60.28,0.24)_100%)]">
@@ -245,17 +245,17 @@ export const App = () => {
                       w-full"
                       >
                         <div className="flex flex-col items-center justify-center gap-[12px] py-0 relative w-full flex-[0_0_auto]">
-                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
+                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
                             <div className="relative w-fit mt-[-1.00px] font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               Price of token today
                             </div>
                           </div>
-                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
+                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
                             <p className="relative w-fit mt-[-1.00px] font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               The fluctuation of token this week
                             </p>
                           </div>
-                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
+                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
                             <p className="relative w-fit mt-[-1.00px] font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               The fluctuation of token this year
                             </p>
