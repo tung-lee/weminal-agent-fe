@@ -233,40 +233,43 @@ export const App = () => {
                       <div className="inline-flex flex-col items-center gap-[24px] relative flex-[0_0_auto]">
                         <img
                           className="relative w-[90px] h-[90px]"
-                          alt="Frame"
-                          src="frame-5.svg"
+                          alt="Weminal Logo"
+                          src="weminal-logo.svg"
                         />
                         <p className="relative w-fit font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                           How can i help you ?
                         </p>
                       </div>
-                      <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
-                        <div className="flex flex-col items-center justify-center gap-[12px] px-[40px] py-0 relative self-stretch w-full flex-[0_0_auto]">
-                          <div className="flex items-center justify-around gap-[10px] px-[40px] py-[16px] relative self-stretch w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px]">
+                      <div
+                        className="flex flex-col items-center relative flex-[0_0_auto]
+                      w-full"
+                      >
+                        <div className="flex flex-col items-center justify-center gap-[12px] py-0 relative w-full flex-[0_0_auto]">
+                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
                             <div className="relative w-fit mt-[-1.00px] font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               Price of token today
                             </div>
                           </div>
-                          <div className="flex items-center justify-around gap-[10px] px-[40px] py-[16px] relative self-stretch w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px]">
+                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
                             <p className="relative w-fit mt-[-1.00px] font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               The fluctuation of token this week
                             </p>
                           </div>
-                          <div className="flex items-center justify-around gap-[10px] px-[40px] py-[16px] relative self-stretch w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px]">
+                          <div className="flex items-center justify-around gap-[10px] py-[16px] relative w-full flex-[0_0_auto] bg-[#251a3a] rounded-[12px] w-[80%]">
                             <p className="relative w-fit mt-[-1.00px] font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               The fluctuation of token this year
                             </p>
                           </div>
                         </div>
-                        <div className="flex flex-col items-start gap-[10px] px-[40px] py-[30px] relative self-stretch w-full flex-[0_0_auto]">
-                          <div className="flex items-center justify-between px-[16px] py-[12px] relative self-stretch w-full flex-[0_0_auto] rounded-[12px] border border-solid border-line-color">
+                        <div className="flex flex-col items-center gap-[10px] py-[30px] relative flex-[0_0_auto] w-100">
+                          <div className="flex items-center justify-between px-[16px] py-[12px] relative flex-[0_0_auto] rounded-[12px] border border-solid border-line-color w-[465px]">
                             <div className="relative w-fit font-text font-[number:var(--text-font-weight)] text-text-color text-[length:var(--text-font-size)] text-center tracking-[var(--text-letter-spacing)] leading-[var(--text-line-height)] whitespace-nowrap [font-style:var(--text-font-style)]">
                               Ask anything...
                             </div>
                             <img
                               className="relative w-[40px] h-[40px]"
-                              alt="Arrow up square"
-                              src="arrow-up-square.svg"
+                              alt="Arrow"
+                              src="arrow.svg"
                             />
                           </div>
                         </div>
@@ -339,7 +342,7 @@ export const App = () => {
                         <img
                           className="absolute w-[568px] h-[8px] top-[7px] left-px"
                           alt="Line"
-                          src="line-8.svg"
+                          src="line-value.svg"
                         />
                         <div className="absolute w-[22px] h-[22px] top-0 left-0 bg-[#31195e] rounded-[11px]" />
                         <div className="absolute w-[16px] h-[16px] top-[3px] left-[3px] bg-[#b7afce] rounded-[8px]" />
