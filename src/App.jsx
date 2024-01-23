@@ -9,7 +9,7 @@ export const App = () => {
             src="line.svg"
           />
           <div className="inline-flex flex-col items-center gap-[40px] absolute top-0 left-0 w-full">
-            <div className="inline-flex flex-col items-center justify-center relative flex-[0_0_auto] w-full">
+            <div className="inline-flex flex-col items-center justify-center relative flex-[0_0_auto] w-[95%]">
               <div className="flex w-full items-center justify-between px-[40px] py-[25px] relative flex-[0_0_auto]">
                 <div className="inline-flex items-center gap-[8px] px-0 py-[24px] relative flex-[0_0_auto]">
                   <img
@@ -37,7 +37,7 @@ export const App = () => {
                 </div>
               </div>
               <div className="relative w-full h-[651px]">
-                <div className="flex flex-col w-full items-end justify-center gap-[10px] px-[100px] py-[167px] relative top-[-35px] left-[-40px]">
+                <div className="flex flex-col items-end justify-center gap-[10px] px-[100px] py-[167px] relative top-[-35px] left-[-40px]">
                   <div className="inline-flex flex-col items-start gap-[12px] p-[40px] relative flex-[0_0_auto] rounded-[40px]">
                     <div className="inline-flex items-start gap-[13px] relative flex-[0_0_auto]">
                       <div className="flex flex-col w-[90px] items-center justify-center gap-[12px] p-[40px] relative rounded-[12px] [background:linear-gradient(180deg,rgb(34.41,27.38,49.66)_0%,rgba(44.24,36.84,60.28,0.24)_100%)]">
