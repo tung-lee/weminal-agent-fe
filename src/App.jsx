@@ -29,9 +29,6 @@ export const App = () => {
                     Vision And Mission
                   </div>
                   <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#ffffff] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
-                    Install
-                  </div>
-                  <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#ffffff] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
                     Chatbot
                   </div>
                 </div>
@@ -423,40 +420,59 @@ export const App = () => {
                     Join the waitlist
                   </div>
                   <p className="relative self-stretch font-big-text font-[number:var(--big-text-font-weight)] text-[#a096b4] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
-                    Loren ipsun dolor sit anet, consectetur adipisci elit,{" "}
+                    Get ready to unlock the full potential of predictions with{" "}
                     <br />
-                    sed eiusnod tenpor incidunt ut labore et dolore nagna
-                    aliqua. Ut enin ad ninin venian, quis nostrun <br />{" "}
-                    exercitationen ullan corporis suscipit laboriosan, nisi{" "}
-                    <br /> ut aliquid ex ea connodi consequatur.
+                    our On/Off Chain Prediction Platform.
+                    <br />
+                    <br />
+                    Don't miss your chance to be at the forefront of this
+                    transformative journey!
+                    <br />
+                    <br />
+                    🚀 Let's predict the future together!
                   </p>
                 </div>
               </div>
               <div className="inline-flex flex-col items-end justify-center gap-[32px] relative flex-[0_0_auto]">
                 <div className="inline-flex flex-col items-end justify-center gap-[16px] relative flex-[0_0_auto]">
-                  <div className="flex w-[654px] items-center gap-[10px] p-[24px] relative flex-[0_0_auto] rounded-[12px] border border-solid border-[#6755a0]">
-                    <div className="text-[#66646b] relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
-                      Name
+                  <div className="w-[654px] gap-[10px] p-[24px] relative  rounded-[12px] border border-solid border-[#6755a0]">
+                    <div className="w-full text-[#66646b] relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        className="w-full bg-transparent text-[#66646b]"
+                      />
                     </div>
                   </div>
-                  <div className="flex w-[654px] items-center gap-[10px] p-[24px] relative flex-[0_0_auto] rounded-[12px] border border-solid border-[#6755a0]">
-                    <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#66646b] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
-                      Phone
+                  <div className="w-[654px] gap-[10px] p-[24px] relative rounded-[12px] border border-solid border-[#6755a0]">
+                    <div className="w-full relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#66646b] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
+                      <input
+                        type="tel"
+                        placeholder="Phone"
+                        className="w-full bg-transparent text-[#66646b]"
+                      />
                     </div>
                   </div>
-                  <div className="flex w-[654px] items-center gap-[10px] p-[24px] relative flex-[0_0_auto] rounded-[12px] border border-solid border-[#6755a0]">
-                    <div className="relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#66646b] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
-                      Email
+                  <div className="w-[654px] gap-[10px] p-[24px] relative rounded-[12px] border border-solid border-[#6755a0]">
+                    <div className="w-full relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#66646b] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        className="w-full bg-transparent text-[#66646b]"
+                      />
                     </div>
                   </div>
-                  <div className="flex w-[654px] items-center gap-[10px] p-[24px] relative flex-[0_0_auto] rounded-[12px] border border-solid border-[#6755a0]">
-                    <p className="relative flex-1 mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#66646b] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
-                      How are you planning on using Orai3D and what feature do
-                      you think is the most crucial
+                  <div className="w-[654px] gap-[10px] p-[24px] relative rounded-[12px] border border-solid border-[#6755a0]">
+                    <p className="w-full relative flex-1 mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[#66646b] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
+                      <input
+                        type="text"
+                        placeholder="How are you planning on using weminal and what feature do you think is the most crucial"
+                        className="w-full bg-transparent text-[#66646b]"
+                      />
                     </p>
                   </div>
                 </div>
-                <div className="inline-flex items-center justify-end gap-[10px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#613ec8] rounded-[12px]">
+                <div className="inline-flex items-center justify-end gap-[10px] px-[40px] py-[24px] relative flex-[0_0_auto] bg-[#613ec8] rounded-[12px]  cursor-pointer">
                   <div className="text-[#ffffff] relative w-fit mt-[-1.00px] font-big-text font-[number:var(--big-text-font-weight)] text-[length:var(--big-text-font-size)] tracking-[var(--big-text-letter-spacing)] leading-[var(--big-text-line-height)] [font-style:var(--big-text-font-style)]">
                     Send
                   </div>
